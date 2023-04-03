@@ -1,0 +1,63 @@
+@import-normalize;
+
+body {
+  background-color: #bfc0c0;
+}
+
+.add {
+  margin: 20px;
+
+  width: 75px;
+  height: 75px;
+
+  border-radius: 37.5px;
+
+  font-size: 2rem;
+
+  background-color: #bfc0c0;
+
+  border: 1.5px solid grey;
+
+  color: grey;
+}
+
+.add:hover {
+  font-size: 3rem;  
+  color: grey;
+  background-color: #4F5D75;
+  scale: 1.05;
+}
+
+.add:active {
+  color: #bfc0c0;
+}
+
+
+li {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 400px;
+}
+
+.form {
+  border: 1px solid grey;
+
+  width: 15%;
+
+  padding: 25px;
+  border-radius: 7.5%;
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+}

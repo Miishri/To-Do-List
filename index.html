@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/clipboard.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <script type="module" src="/main.js" defer></script>
+    <title>What's left?</title>
+  </head>
+  <body>
+      <button class="add">+</button>
+      <div class="createToDo">
+        <h2>Create a ToDo</h2>
+        <ul class="form">
+          <li>
+            <label for="title">Title</label>
+            <input type="text" id="title" name="ToDo_title" placeholder="What to do?" required minlength="5" maxlength="50"/>
+          </li>
+          <li>
+            <label for="description">Description</label>
+            <input type="text" id="desc" name="ToDo_description" placeholder="about what?" required minlength="5" maxlength="200"/>
+          </li>
+          <li>
+            <label for="dueDate">Due Date: </label>
+            <input type="date" id="dueDate" name="ToDo_date" required/>
+          </li>
+          <li>
+            <label for="title">Priority</label>
+            <input type="number" id="title" name="ToDo_title" value="1" min="1" max="10"/>
+          </li>
+        </ul>
+      </div>
+  </body>
+</html>
